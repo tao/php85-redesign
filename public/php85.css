@@ -180,6 +180,7 @@ p a {
 }
 
 h2 code,
+h3 code,
 li code,
 p code {
     color: var(--color-gray-600);
