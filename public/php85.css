@@ -309,7 +309,6 @@ p code {
 }
 
 
-
 /* ==========================================================================
    Glance Section
    ========================================================================== */
@@ -331,18 +330,20 @@ p code {
     padding-bottom: 4rem;
     display: grid;
     gap: 2rem;
-    row-gap: 4rem;
+    row-gap: 2rem;
 }
 
 @media (min-width: 640px) {
     .glance__grid {
         grid-template-columns: repeat(2, 1fr);
+        row-gap: 3rem;
     }
 }
 
 @media (min-width: 1280px) {
     .glance__grid {
         grid-template-columns: repeat(4, 1fr);
+        row-gap: 4rem;
     }
 }
 
