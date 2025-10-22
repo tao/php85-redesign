@@ -253,6 +253,13 @@ p code {
     margin-bottom: 4rem;
 }
 
+@media (min-width: 1280px) {
+    .hero__padding {
+        margin-top: 6rem;
+        margin-bottom: 5rem;
+    }
+}
+
 .hero__logo {
     height: 2.75rem;
     margin-bottom: 0.5rem;
